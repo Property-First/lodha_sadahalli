@@ -2270,7 +2270,8 @@ header.fixed_header.sticky a.head-call {
 }
 
 .destop-show {
-    display: block
+    display: block;
+        width: 100%;
 }
 
 .mobile-show {
@@ -2300,7 +2301,7 @@ header.fixed_header.sticky a.head-call {
     }
 
     .banner-form {
-        top: 55%;
+        top: 65%;
         width: 26%
     }
 
