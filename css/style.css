@@ -841,7 +841,7 @@ img.icon-high {
 }
 
 .banner-dule .carousel-inner .carousel-item img {
-    background-color: rgb(0 0 0 / .6)
+    background-color: rgb(0 0 0 / .3)
 }
 
 .carousel-inner:after {
@@ -2316,7 +2316,8 @@ header.fixed_header.sticky a.head-call {
     .container.banner-text .slide-text.white {
         position: relative;
         left: 10%;
-        top: 10%
+        top: 10%;
+        width: max-content;
     }
 }
 
@@ -2332,7 +2333,8 @@ header.fixed_header.sticky a.head-call {
     .container.banner-text .slide-text.white {
         position: relative;
         left: 21%;
-        top: 10%
+        top: 10%;
+        width:max-content;;
     }
 
     .banner-head {
@@ -2587,7 +2589,7 @@ header.fixed_header.sticky a.head-call {
 
 .carousel_item_centered .owl-item.active.center,
 .carousel_item_centered_rooms .owl-item.active.center {
-    opacity: 1;
+    opacity: 1 ;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -3395,7 +3397,7 @@ img.modal-popup-logo {
         padding: 9px 12px;
         border: 1px solid #584141;
         border-radius: 40px;
-        font-size: 7px;
+        font-size: 8px;
         font-weight: 600;
         letter-spacing: 1px;
         color: black;
