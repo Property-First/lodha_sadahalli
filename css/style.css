@@ -3326,7 +3326,7 @@ img.modal-popup-logo {
     }
 
     .banner-head {
-        font-size: 26px !important;
+        font-size: 23px !important;
         letter-spacing: 1px !important;
         color: black !important;
                 text-align: center;
@@ -3416,7 +3416,16 @@ img.modal-popup-logo {
     p.banner-high {
         margin: 0;
         font-size: 13px;
-        padding-bottom: 6px
+        padding-bottom: 6px;
+        /* color: #000; */
+    }
+
+    p.high {
+        margin: 0;
+        font-size: 22px;
+        padding-bottom: 6px;
+        color: #000;
+        font-weight: 500;
     }
 
     .banner-typology .banner-typology-detail {
