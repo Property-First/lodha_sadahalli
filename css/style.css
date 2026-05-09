@@ -840,6 +840,26 @@ img.icon-high {
     font-size: 16px
 }
 
+
+/* FIX: ensure buttons are clickable */
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 10;
+    width: 5%;
+}
+
+/* Make icons visible */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    pointer-events: all;
+}
 .banner-dule .carousel-inner .carousel-item img {
     background-color: rgb(0 0 0 / .3)
 }
