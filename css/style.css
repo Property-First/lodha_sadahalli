@@ -3273,7 +3273,8 @@ img.modal-popup-logo {
         position: relative;
         left: 1%;
         /* top: unset; */
-        bottom: 0%
+        bottom: 0%;
+                width: fit-content;
     }
 
     .contact_no {
