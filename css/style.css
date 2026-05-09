@@ -864,6 +864,11 @@ img.icon-high {
     background-color: rgb(0 0 0 / .3)
 }
 
+.carousel-item {
+  height: auto;
+
+}
+
 .carousel-inner:after {
     position: absolute;
     top: 0;
